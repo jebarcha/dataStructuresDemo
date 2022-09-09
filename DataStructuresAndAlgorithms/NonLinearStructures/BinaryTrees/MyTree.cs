@@ -15,9 +15,9 @@ namespace DataStructuresAndAlgorithms.NonLinearStructures.BinaryTrees
             public Node leftChild;
             public Node rightChild;
 
-            public Node(int vale)
+            public Node(int value)
             {
-                this.value = vale;
+                this.value = value;
             }
 
             public override string ToString()

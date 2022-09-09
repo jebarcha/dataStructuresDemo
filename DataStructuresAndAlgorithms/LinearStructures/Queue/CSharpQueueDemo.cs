@@ -104,11 +104,11 @@ namespace DataStructuresAndAlgorithms.Queue
         public static void MyPriorityQueue()
         {
             var q = new MyPriorityQueue();
-            q.add(5);
-            q.add(3);
-            q.add(6);
-            q.add(1);
-            q.add(4);
+            q.Add(5);
+            q.Add(3);
+            q.Add(6);
+            q.Add(1);
+            q.Add(4);
             Console.WriteLine(q.ToString());
 
             while (!q.IsEmpty())

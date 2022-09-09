@@ -10,7 +10,7 @@ namespace DataStructuresAndAlgorithms.Queue
     {
         private int[] _items = new int[5];
         private int _count;
-        public void add(int item)
+        public void Add(int item)
         {
             if (IsFull())
                 throw new ArgumentOutOfRangeException();

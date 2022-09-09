@@ -3,6 +3,9 @@ using System.Collections;
 using DataStructuresAndAlgorithms.Linked_List.DemoLL;
 using DataStructuresAndAlgorithms.HashTables;
 using DataStructuresAndAlgorithms.NonLinearStructures.BinaryTrees;
+using DataStructuresAndAlgorithms.NonLinearStructures.AVLTree;
+using DataStructuresAndAlgorithms.NonLinearStructures.Heap;
+using DataStructuresAndAlgorithms.Queue;
 
 #region Arrays
 //DataStructuresAndAlgorithms.ArraysDemo1.ArraysExample();
@@ -223,12 +226,19 @@ void MyLinkedList()
 #endregion
 
 #region BinaryTrees
-Console.WriteLine("Binary Trees");
-TreesDemo.MyTree();
+//Console.WriteLine("ALV Trees");
+//AVLTreeDemo.MyAVLTree();
+
+//Console.WriteLine("Binary Trees");
+//TreesDemo.MyTree();
 
 //Console.WriteLine(TreesDemo.Factorial(4));
 //Console.WriteLine(TreesDemo.FactorialRecursion(3));
+#endregion
 
+#region Heaps
+Console.WriteLine("Heap Demo");
+MyHeapDemo.Demo();
 
 #endregion
 
