@@ -6,6 +6,7 @@ using DataStructuresAndAlgorithms.NonLinearStructures.BinaryTrees;
 using DataStructuresAndAlgorithms.NonLinearStructures.AVLTree;
 using DataStructuresAndAlgorithms.NonLinearStructures.Heap;
 using DataStructuresAndAlgorithms.Queue;
+using DataStructuresAndAlgorithms.NonLinearStructures.Tries;
 
 #region Arrays
 //DataStructuresAndAlgorithms.ArraysDemo1.ArraysExample();
@@ -185,7 +186,6 @@ void MyLinkedList()
 
 #endregion
 
-
 #region Queues
 //Console.WriteLine("C# Queue demo");
 //CSharpQueueDemo.Demo();
@@ -237,8 +237,12 @@ void MyLinkedList()
 #endregion
 
 #region Heaps
-Console.WriteLine("Heap Demo");
-MyHeapDemo.Demo();
+//Console.WriteLine("Heap Demo");
+//MyHeapDemo.Demo();
+#endregion
 
+#region Tries
+Console.WriteLine("Tries Demo");
+MyTrieDemo.Demo();
 #endregion
 

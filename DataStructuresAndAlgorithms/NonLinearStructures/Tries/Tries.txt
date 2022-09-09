@@ -1,0 +1,30 @@
+﻿Trie
+	Node
+		value: char
+		children: Node[26]
+		isEndOfWord: bool
+Insert(word: string)
+index = ch - 'a' (numeric representation)
+
+97=a
+100=d  100-97 = 3, so stored d on index 3
+
+
+# Autcompletion
+car
+card
+careful
+egg
+
+  c	   e
+  a	   g
+  r	   g
+d   e
+    f
+    u
+    l
+
+car
+Node root
+string word
+List<string> words
