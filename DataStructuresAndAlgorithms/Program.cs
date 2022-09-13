@@ -7,6 +7,8 @@ using DataStructuresAndAlgorithms.NonLinearStructures.AVLTree;
 using DataStructuresAndAlgorithms.NonLinearStructures.Heap;
 using DataStructuresAndAlgorithms.Queue;
 using DataStructuresAndAlgorithms.NonLinearStructures.Tries;
+using DataStructuresAndAlgorithms.NonLinearStructures.Graphs;
+using DataStructuresAndAlgorithms.NonLinearStructures.UndirectedGraphs;
 
 #region Arrays
 //DataStructuresAndAlgorithms.ArraysDemo1.ArraysExample();
@@ -242,7 +244,17 @@ void MyLinkedList()
 #endregion
 
 #region Tries
-Console.WriteLine("Tries Demo");
-MyTrieDemo.Demo();
+//Console.WriteLine("Tries Demo");
+//MyTrieDemo.Demo();
+#endregion
+
+#region Graphs
+//Console.WriteLine("Graphs Demo");
+//GraphDemo.Demo();
+#endregion
+
+#region WeightedGraph
+Console.WriteLine("Weighted Graph");
+WeightedGraphDemo.Demo();
 #endregion
 
