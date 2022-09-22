@@ -9,6 +9,7 @@ using DataStructuresAndAlgorithms.Queue;
 using DataStructuresAndAlgorithms.NonLinearStructures.Tries;
 using DataStructuresAndAlgorithms.NonLinearStructures.Graphs;
 using DataStructuresAndAlgorithms.NonLinearStructures.UndirectedGraphs;
+using DataStructuresAndAlgorithms.SortingAlgorithms;
 
 #region Arrays
 //DataStructuresAndAlgorithms.ArraysDemo1.ArraysExample();
@@ -254,7 +255,13 @@ void MyLinkedList()
 #endregion
 
 #region WeightedGraph
-Console.WriteLine("Weighted Graph");
-WeightedGraphDemo.Demo();
+//Console.WriteLine("Weighted Graph");
+//WeightedGraphDemo.Demo();
+#endregion
+
+#region SortingAlgorithms
+
+SortDemos.Demos();
+
 #endregion
 
