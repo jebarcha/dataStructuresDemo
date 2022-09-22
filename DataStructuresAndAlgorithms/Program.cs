@@ -10,6 +10,7 @@ using DataStructuresAndAlgorithms.NonLinearStructures.Tries;
 using DataStructuresAndAlgorithms.NonLinearStructures.Graphs;
 using DataStructuresAndAlgorithms.NonLinearStructures.UndirectedGraphs;
 using DataStructuresAndAlgorithms.SortingAlgorithms;
+using DataStructuresAndAlgorithms.Algorithms.SearchAlgorithms;
 
 #region Arrays
 //DataStructuresAndAlgorithms.ArraysDemo1.ArraysExample();
@@ -261,7 +262,13 @@ void MyLinkedList()
 
 #region SortingAlgorithms
 
-SortDemos.Demos();
+//SortDemos.Demos();
 
 #endregion
 
+
+#region SearchingAlgorithms
+
+SearchDemos.Demos();
+
+#endregion
