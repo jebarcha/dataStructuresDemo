@@ -11,6 +11,7 @@ using DataStructuresAndAlgorithms.NonLinearStructures.Graphs;
 using DataStructuresAndAlgorithms.NonLinearStructures.UndirectedGraphs;
 using DataStructuresAndAlgorithms.SortingAlgorithms;
 using DataStructuresAndAlgorithms.Algorithms.SearchAlgorithms;
+using DataStructuresAndAlgorithms.Algorithms.StringManipulation;
 
 #region Arrays
 //DataStructuresAndAlgorithms.ArraysDemo1.ArraysExample();
@@ -261,14 +262,13 @@ void MyLinkedList()
 #endregion
 
 #region SortingAlgorithms
-
 //SortDemos.Demos();
-
 #endregion
 
-
 #region SearchingAlgorithms
+//SearchDemos.Demos();
+#endregion
 
-SearchDemos.Demos();
-
+#region
+StringManipulationDemos.Demos();
 #endregion
